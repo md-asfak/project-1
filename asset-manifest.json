@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/project-1/static/css/main.88dbcbbb.css",
+    "main.js": "/project-1/static/js/main.102710ba.js",
+    "static/js/453.0a36081d.chunk.js": "/project-1/static/js/453.0a36081d.chunk.js",
+    "static/media/Rectangle 336.png": "/project-1/static/media/Rectangle 336.f55baed6bcc0ec20bf1f.png",
+    "static/media/Rectangle 337.png": "/project-1/static/media/Rectangle 337.0188fe5aeb8401603e31.png",
+    "static/media/Rectangle 338.png": "/project-1/static/media/Rectangle 338.9d21c2e82483de759769.png",
+    "static/media/img02.png": "/project-1/static/media/img02.29996152cb1deb25d6af.png",
+    "static/media/Rectangle 335.png": "/project-1/static/media/Rectangle 335.523fcc0bee681753506c.png",
+    "static/media/Group 585(1).png": "/project-1/static/media/Group 585(1).c19bf942eb5ccc254a9f.png",
+    "static/media/Rectangle 334.png": "/project-1/static/media/Rectangle 334.aa322863f403336feab7.png",
+    "index.html": "/project-1/index.html",
+    "main.88dbcbbb.css.map": "/project-1/static/css/main.88dbcbbb.css.map",
+    "main.102710ba.js.map": "/project-1/static/js/main.102710ba.js.map",
+    "453.0a36081d.chunk.js.map": "/project-1/static/js/453.0a36081d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88dbcbbb.css",
+    "static/js/main.102710ba.js"
+  ]
+}
