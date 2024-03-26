@@ -23,20 +23,24 @@ export default function MenuSection() {
         {/* //////////////////////////////// */}
 
         <div className="top_Container">
-          <div className="card">
-            <img src={image2} alt="" className="manu_image1" />
-            <div className="img">
-              <h3>Airport </h3>
-              <h3>Transfers</h3>
-              <img src={image1} alt="..." className="manu_image2" />
+          <div className="card_container">
+            <div className="card">
+              <img src={image2} alt="" className="manu_image1" />
+              <div className="img">
+                <h3>Airport </h3>
+                <h3>Transfers</h3>
+                <img src={image1} alt="..." className="manu_image2" />
+              </div>
             </div>
           </div>
-          <div className="card cart_1">
-            <img src={image3} alt="" className="manu_image3" />
-            <div className="img">
-              <h3>Hotel </h3>
-              <h3>Transport</h3>
-              <img src={image4} alt="..." className="manu_image4" />
+          <div className="card_container">
+            <div className="card cart_1">
+              <img src={image3} alt="" className="manu_image3" />
+              <div className="img">
+                <h3>Hotel </h3>
+                <h3>Transport</h3>
+                <img src={image4} alt="..." className="manu_image4" />
+              </div>
             </div>
           </div>
         </div>

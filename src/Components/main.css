@@ -27,12 +27,9 @@
 }
 
 .content_section {
-  display: grid;
-  grid-auto-flow: column;
-  margin-bottom: 50px;
-  grid-template-columns: 1fr, 0.5fr;
   color: white;
-  padding: 0 80px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 @media (max-width: 768px) {
@@ -40,12 +37,12 @@
     background-color: #33425f;
   }
   .content_section {
-    display: grid;
-    grid-auto-flow: row;
-    row-gap: 50px;
-  }
-  .right {
-    margin-left: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 80px;
+    padding: 40px;
   }
 }
 .left-content h3 {
