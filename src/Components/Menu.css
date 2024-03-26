@@ -2,30 +2,39 @@
   background-color: #6745b2;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
-  padding: 80px 120px;
+  padding: 80px 0;
   position: relative;
+  width: 100%;
 }
 
 .top_Container {
   display: flex;
   flex-wrap: wrap;
   row-gap: 150px;
+  column-gap: 50px;
   justify-content: space-around;
   margin-bottom: 120px;
 }
 
+.card_container1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  padding: 0 40px;
+}
+
+.card_container2 {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 0 40px;
+}
 .card {
   position: relative;
 }
-.manu_image2 {
-  width: 270px;
-}
 
-.manu_image1 {
-  position: absolute;
-  top: -40px;
-  left: -33px;
-  width: 350px;
+.card_container1 {
+  width: 50%;
 }
 
 .manu_image3 {
@@ -45,8 +54,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  gap: 50px;
-  margin-bottom: 20px;
+  row-gap: 150px;
+  column-gap: 90px;
+  width: 100%;
 }
 
 .card2 {
@@ -64,6 +74,7 @@
 .manu_image2 {
   width: 270px;
 }
+
 .manu_image3 {
   position: absolute;
   top: -40px;
@@ -81,17 +92,17 @@
   width: 350px;
 }
 .manu_image6 {
-  width: 270px;
+  width: 260px;
 }
 .manu_image7 {
   position: absolute;
-  top: -40px;
-  left: -70px;
+  top: -20px;
+  left: -50px;
   width: 350px;
 }
 
 .manu_image8 {
-  width: 220px;
+  width: 250px;
 }
 /* /////////////////////////////////// */
 
@@ -117,66 +128,116 @@
 }
 
 @media (max-width: 768px) {
-  /* .line_one {
-    display: none;
-  }
-
-  .line_two {
-    position: absolute;
-    left: 600px;
-    bottom: 20px;
-  }
-  .line_three {
-    position: absolute;
-    top: 333px;
-    left: 515px;
-  }
-
-  .line_five {
-    display: inline-block;
-    position: absolute;
-    top: 30px;
-    left: 102px;
-  } */
-  /* ////// */
-
   .manu_image1 {
     position: absolute;
     top: -50px;
     left: -40px;
-    width: 350px;
+    width: 300px;
+    background-size: cover;
   }
 
   .manu_image2 {
-    width: 270px;
+    width: 200px;
   }
   .manu_image3 {
     position: absolute;
     top: -40px;
     left: -40px;
-    width: 350px;
+    width: 320px;
   }
 
   .manu_image4 {
-    width: 270px;
+    width: 220px;
+  }
+  .img {
+    padding-left: 20px;
   }
   .manu_image5 {
     position: absolute;
     top: -55px;
-    left: -40px;
-    width: 350px;
+    left: -22px;
+    width: 300px;
   }
   .manu_image6 {
-    width: 270px;
+    width: 220px;
   }
   .manu_image7 {
     position: absolute;
     top: -40px;
-    left: -70px;
-    width: 350px;
+    left: -50px;
+    width: 330px;
   }
 
   .manu_image8 {
-    width: 220px;
+    width: 200px;
+  }
+  .top_Container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card_container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding-right: -400px;
+    width: 100%;
+  }
+
+  .card_container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding-right: -40px;
+    width: 100%;
+  }
+
+  .buttom_Container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 }
+
+/* @media (max-width: 992px) {
+  .manu_image1 {
+    position: absolute;
+    top: -50px;
+    left: -40px;
+    width: 270px;
+    background-size: cover;
+  }
+
+  .manu_image2 {
+    width: 180px;
+  }
+  .manu_image3 {
+    position: absolute;
+    top: -30px;
+    left: -40px;
+    width: 280px;
+  }
+
+  .manu_image4 {
+    width: 200px;
+  }
+  .manu_image5 {
+    position: absolute;
+    top: -55px;
+    left: -35px;
+    width: 290px;
+  }
+  .manu_image6 {
+    width: 210px;
+  }
+  .manu_image7 {
+    position: absolute;
+    top: -20px;
+    left: -55px;
+    width: 280px;
+  }
+
+  .manu_image8 {
+    width: 180px;
+  }
+} */

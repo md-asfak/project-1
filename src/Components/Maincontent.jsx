@@ -4,6 +4,7 @@ import image1 from "./image/img02.png";
 import img3 from "./image/Line 3.png";
 import img4 from "./image/Rectangle 330.png";
 import img5 from "./image/Line 10.png";
+import img6 from "./image/Line 9.png";
 
 function Maincontent() {
   return (
@@ -26,9 +27,12 @@ function Maincontent() {
             <p>We understand time, that’s why we keep it</p>
             <h3>simple</h3>
           </div>
+
           <div className="right-content">
-            <img className="mainImg" src={image} alt="" />
-            <img className="mainImg2" src={image1} alt="" />
+            <div className="r-content">
+              <img className="mainImg" src={image} alt="" />
+              <img className="mainImg2" src={image1} alt="" />
+            </div>
           </div>
         </div>
         <div className="list">
@@ -39,7 +43,8 @@ function Maincontent() {
             <li>Budget Control</li>
             <li>24/7 Support </li>
           </ul>
-          <img src={img5} alt="" />
+          <img src={img5} alt="" className="listImg" />
+          <img src={img6} alt="" className="listImg2" />
         </div>
       </div>
     </>
